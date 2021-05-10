@@ -15,7 +15,7 @@ class slingshot{
         if(this.slingshot.bodyA!=null)
         {var pointA = this.slingshot.bodyA.position;
         var pointB = this.pointB
-        strokeWeight(4);
+        strokeWeight(0);
         line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
